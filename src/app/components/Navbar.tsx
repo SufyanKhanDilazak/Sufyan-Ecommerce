@@ -19,7 +19,7 @@ export default function Navbar() {
     <header className="mb-8 border-b bg-[#61892F] h-20 rounded-sm">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
-        <h1 className="text-2xl md:text-4xl font-bold">
+        <h1 className="text-2xl md:text-4xl font-bold mobile:text-3xl mobile:mt-5 md:mt-0">
   <span className="inline-block text-transparent bg-clip-text bg-white">
     Rizz
   </span>
@@ -52,7 +52,7 @@ export default function Navbar() {
           
         </nav>
 
-        <div className="flex divide-x border-r sm:border-l">
+        <div className="flex divide-x border-r sm:border-l mobile:mt-2">
           <Button
             variant={"outline"}
             onClick={() => handleCartClick()}

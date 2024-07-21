@@ -45,8 +45,8 @@ export default async function Newest() {
           height={300}
         />
       </div>
-      <div className="mt-4 bg-gray-300  text-center rounded-lg">
-        <h3 className="md:text-lg text-black font-bold ml-1">{product.name}</h3>
+      <div className="mt-4 bg-white  text-center rounded-lg">
+        <h3 className="md:text-lg mobile:text-sm sm:text-lg text-black font-semibold ml-1">{product.name}</h3>
       </div>
     </Link>
     <div className="mt-1 flex justify-between bg-black rounded-lg">
