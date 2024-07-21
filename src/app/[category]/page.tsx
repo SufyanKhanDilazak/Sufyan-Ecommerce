@@ -31,8 +31,8 @@ export default async function CategoryPage({
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8">
-      <div className="justify-center items-center rounded-lg h-10 bg-gradient-to-r from-purple-500 via-yellow-200 to-orange-400">
-          <h2 className="flex items-center justify-center text-4xl font-bold tracking-tight text-gray-950 mt-12 font-serif ">
+      <div className="justify-center items-center rounded-lg h-10 bg-gray-950">
+          <h2 className="flex items-center justify-center text-4xl font-bold tracking-tight text-[#61892F] mt-12 font-serif ">
             Our Products for {params.category}
           </h2>
         </div>

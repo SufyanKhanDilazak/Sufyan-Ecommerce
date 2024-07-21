@@ -12,7 +12,7 @@ const Main = () => {
     visible: { x: 0, y: -10, opacity: 1, transition: { delay: 0.05 } },
   };
   return (
-    <div className="w-full sm:h-[400px] h-[200px] flex items-center">
+    <div className="w-full sm:h-[450px] h-[350px] flex items-center bg-black">
       <div className="h-full md:max[1024px] max-w-[600px] m-auto flex relative justify-center items-center">
         <div className="object-cover">
           <Image src={main} alt="airpods" height={100} width={1400} />

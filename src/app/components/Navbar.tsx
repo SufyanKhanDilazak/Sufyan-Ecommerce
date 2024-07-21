@@ -16,14 +16,14 @@ export default function Navbar() {
   const pathname = usePathname();
   const { handleCartClick } = useShoppingCart();
   return (
-    <header className="mb-8 border-b bg-gradient-to-r from-purple-400 to-orange-400 h-20 rounded-lg">
+    <header className="mb-8 border-b bg-[#61892F] h-20 rounded-sm">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
         <h1 className="text-2xl md:text-4xl font-bold">
-  <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-red-600 animate-pulse">
+  <span className="inline-block text-transparent bg-clip-text bg-white">
     Rizz
   </span>
-  <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r  from-blue-900 to-red-900 from-primary  animate-pulse">
+  <span className="inline-block text-transparent bg-clip-text bg-gray-950">
     Store
   </span>
 </h1>
@@ -56,10 +56,10 @@ export default function Navbar() {
           <Button
             variant={"outline"}
             onClick={() => handleCartClick()}
-            className="flex flex-col gap-y-1.5 h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 bg-purple-300 hover:bg-purple-400 rounded-lg"
+            className="flex flex-col gap-y-1.5 h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 bg-gray-950 text-[#61892F] hover:bg-gray-200 rounded-lg"
           >
-            <ShoppingBag  className="bg-orange-400  rounded-lg"/>
-            <span className="hidden text-lg font-semibold text-gray-950 sm:block ">
+            <ShoppingBag  className="  rounded-lg"/>
+            <span className="hidden text-lg font-semibold text-white sm:block ">
               Cart
             </span>
           </Button>

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div><footer className="text-gray-950 body-font bg-gray-950">
-    <div className="bg-gradient-to-r from-purple-500 to-orange-500">
+    <div className="bg-[#61892F]">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p className="text-gray-950 text-sm text-center sm:text-left">
           © Sufyan Khan 2024 —
